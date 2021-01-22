@@ -359,7 +359,9 @@ ul {
     height: 100%;
     background-color: #000;
     padding: 50px .5rem 0;
-    z-index: 4;
+    z-index: 8;
+
+    overflow-y: hidden;
   }
   .header__content.active .header__burger {
     display: block;
